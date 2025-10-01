@@ -1,0 +1,25 @@
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    background: linear-gradient(45deg, #1a237e, #d11515); 
+}
+
+
+p {
+    font-family: "times new roman", serif;
+}
+
+
+.nav-link {
+    font-weight: bold;
+}
+
+
+main {
+    flex-grow: 1;
+}
