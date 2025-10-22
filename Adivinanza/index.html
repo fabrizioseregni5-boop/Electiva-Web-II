@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la Palabra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game">
+        <h1>Adivina la Palabra</h1>
+        <div class="palabra" id="palabra">_ _ _ _ _</div>
+        <div class="intentos" id="intentos">Intentos restantes: 6</div>
+        <div class="letras_usadas" id="letras_usadas">Letras usadas: </div>
+        
+        <div>
+            <input type="text" id="letra" maxlength="1" placeholder="Letra">
+            <button id="adivinar">Adivinar</button>
+        </div>
+        
+        <div class="mensaje" id="mensaje"></div>
+        <button class="nuevo_juego" id="nuevo_juego">Nuevo Juego</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

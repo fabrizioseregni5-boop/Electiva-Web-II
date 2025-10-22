@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url('aho.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+}
+
+.game {
+    background-color: rgb(148, 138, 138);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.palabra {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 30px 0;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.intentos {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #ff1900;
+}
+
+.letras_usadas {
+    margin: 15px 0;
+    min-height: 30px;
+    color: #191919;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 60px;
+    text-align: center;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.mensaje {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+.ganador {
+    color: #0bec69;
+}
+
+.perdedor {
+    color: #e74c3c;
+}
+
+.nuevo_juego {
+    margin-top: 20px;
+    background-color: #1ac762;
+}
+
+.nuevo_juego:hover {
+    background-color: #27ae60;
+}
